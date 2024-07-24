@@ -22,5 +22,10 @@ public class HomeController {
         return list;
     }
 
+    @GetMapping("/msd")
+    public String getMsd(){
+        return "MSD RSAAAAAAA test";
+    }
+
 
 }
